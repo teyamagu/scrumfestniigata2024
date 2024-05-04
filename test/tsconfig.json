@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // This must be specified if "paths" is.
+    "paths": {
+      "@pages/*": ["libs/pages/*"] // This mapping is relative to "baseUrl".
+    }
+  }
+}
